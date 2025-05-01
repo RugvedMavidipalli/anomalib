@@ -334,8 +334,6 @@ def get_torch_install_args(requirement: str | Requirement) -> list[str]:
 
         # Return the install arguments.
         install_args += [
-            "--extra-index-url",
-            index_url,
             torch_version,
             torchvision_requirement,
         ]
