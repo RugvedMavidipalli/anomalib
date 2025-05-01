@@ -17,10 +17,10 @@ from pkg_resources import Requirement
 
 AVAILABLE_TORCH_VERSIONS = {
     "2.0.0": {"torchvision": "0.15.1", "cuda": ("11.7", "11.8")},
-    "2.0.1": {"torchvision": "0.15.2", "cuda": ("11.7", "11.8")},
-    "2.1.1": {"torchvision": "0.16.1", "cuda": ("11.8", "12.1")},
-    "2.1.2": {"torchvision": "0.16.2", "cuda": ("11.8", "12.1")},
-    "2.2.0": {"torchvision": "0.16.2", "cuda": ("11.8", "12.1")},
+    # "2.0.1": {"torchvision": "0.15.2", "cuda": ("11.7", "11.8")},
+    # "2.1.1": {"torchvision": "0.16.1", "cuda": ("11.8", "12.1")},
+    # "2.1.2": {"torchvision": "0.16.2", "cuda": ("11.8", "12.1")},
+    # "2.2.0": {"torchvision": "0.16.2", "cuda": ("11.8", "12.1")},
 }
 
 
